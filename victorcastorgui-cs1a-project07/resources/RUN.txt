@@ -1,0 +1,314 @@
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing when user makes All Correct Guesses
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52173:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project07/out/production/victorcastorgui-cs1a-project07" game.GuessOrSink
+Welcome to Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 5 letter word: _ _ _ _ _
+number incorrect = 0 word length = 5
+
+Enter your guess #1
+g
+Correct!
+g _ _ _ _
+
+Enter your guess #2
+r
+Correct!
+g r _ _ _
+
+Enter your guess #3
+e
+Correct!
+g r e _ _
+
+Enter your guess #4
+a
+Correct!
+g r e a _
+
+Enter your guess #5
+t
+Correct!
+g r e a t
+
+You saved the day! The word is: great
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Game Over
+Do you want to quit (enter q/quit) or play again (enter anything else)?
+quit
+Thank you for playing!
+
+Process finished with exit code 0
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing when user makes All Wrong Guesses
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52214:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project07/out/production/victorcastorgui-cs1a-project07" game.GuessOrSink
+Welcome to Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 6 letter word: _ _ _ _ _ _
+number incorrect = 0 word length = 6
+
+Enter your guess #1
+q
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #2
+w
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #3
+a
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #4
+s
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #5
+d
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #6
+f
+Incorrect guess!
+                 |         |         |
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #7
+z
+Incorrect guess!
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+The ship has sunk! The word is: bottle
+Game Over
+Do you want to quit (enter q/quit) or play again (enter anything else)?
+quit
+Thank you for playing!
+
+Process finished with exit code 0
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing when user makes Mix Guesses
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52238:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project07/out/production/victorcastorgui-cs1a-project07" game.GuessOrSink
+Welcome to Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 6 letter word: _ _ _ _ _ _
+number incorrect = 0 word length = 6
+
+Enter your guess #1
+a
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #2
+b
+Correct!
+b _ _ _ _ _
+
+Enter your guess #3
+w
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #4
+o
+Correct!
+b o _ _ _ _
+
+Enter your guess #5
+e
+Correct!
+b o _ _ _ e
+
+Enter your guess #6
+m
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Enter your guess #7
+l
+Correct!
+b o _ _ l e
+
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+The ship has sunk! The word is: bottle
+Game Over
+Do you want to quit (enter q/quit) or play again (enter anything else)?
+q
+Thank you for playing!
+
+Process finished with exit code 0
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing when user guess same letter
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52740:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project07/out/production/victorcastorgui-cs1a-project07" game.GuessOrSink
+Welcome to Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 8 letter word: _ _ _ _ _ _ _ _
+number incorrect = 0 word length = 8
+
+Enter your guess #1
+c
+Correct!
+c _ _ _ _ _ _ _
+
+Enter your guess #2
+c
+This letter has been guessed, please guess again:
+Enter your guess #2
+o
+Correct!
+c o _ _ _ _ _ _
+
+Enter your guess #3
+m
+Correct!
+c o m _ _ _ _ _
+
+Enter your guess #4
+m
+This letter has been guessed, please guess again:
+Enter your guess #4
+p
+Correct!
+c o m p _ _ _ _
+
+Enter your guess #5
+p
+This letter has been guessed, please guess again:
+Enter your guess #5
+u
+Correct!
+c o m p u _ _ _
+
+Enter your guess #6
+u
+This letter has been guessed, please guess again:
+Enter your guess #6
+t
+Correct!
+c o m p u t _ _
+
+Enter your guess #7
+e
+Correct!
+c o m p u t e _
+
+Enter your guess #8
+r
+Correct!
+c o m p u t e r
+
+You saved the day! The word is: computer
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+Game Over
+Do you want to quit (enter q/quit) or play again (enter anything else)?
+q
+Thank you for playing!
+
+Process finished with exit code 0
