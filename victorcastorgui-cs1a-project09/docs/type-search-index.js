@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"parser","l":"MonthlyTemperature"},{"p":"parser","l":"TemperaturesCSVReader"},{"p":"parser","l":"TemperaturesCSVReaderForMultipleYears"},{"p":"parser","l":"TestFileReaderForMultipleYears"},{"p":"parser","l":"TestFileReaderForOneYear"}]

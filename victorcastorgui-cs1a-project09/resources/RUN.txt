@@ -1,0 +1,249 @@
+//TEST FILE READER FOR ONE YEAR
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures01.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51453:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForOneYear
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Temperature during 2019 January is 68 degrees.
+Temperature during 2019 February is 64 degrees.
+Temperature during 2019 March is 78 degrees.
+Temperature during 2019 April is 89 degrees.
+Temperature during 2019 May is 78 degrees.
+Temperature during 2019 June is 100 degrees.
+Temperature during 2019 July is 92 degrees.
+Temperature during 2019 August is 98 degrees.
+Temperature during 2019 September is 98 degrees.
+Temperature during 2019 October is 90 degrees.
+Temperature during 2019 November is 78 degrees.
+Temperature during 2019 December is 61 degrees.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures02.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51456:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForOneYear
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Temperature during 2016 January is 68 degrees.
+Temperature during 2016 February is 79 degrees.
+Temperature during 2016 March is 76 degrees.
+Temperature during 2016 April is 90 degrees.
+Temperature during 2016 May is 89 degrees.
+Temperature during 2016 June is 95 degrees.
+Temperature during 2016 July is 94 degrees.
+Temperature during 2016 August is 87 degrees.
+Temperature during 2016 September is 98 degrees.
+Temperature during 2016 October is 88 degrees.
+Temperature during 2016 November is 78 degrees.
+Temperature during 2016 December is 67 degrees.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures_invalid01.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54948:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForOneYear
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Error invalid temperature format
+Exception in thread "main" java.lang.NumberFormatException
+	at parser.TemperaturesCSVReader.parseInput(TemperaturesCSVReader.java:109)
+	at parser.TemperaturesCSVReader.<init>(TemperaturesCSVReader.java:43)
+	at parser.TestFileReaderForOneYear.main(TestFileReaderForOneYear.java:31)
+
+Process finished with exit code 1
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures_invalid02.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54954:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForOneYear
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Error months out of bounds
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+	at parser.TemperaturesCSVReader.parseInput(TemperaturesCSVReader.java:167)
+	at parser.TemperaturesCSVReader.<init>(TemperaturesCSVReader.java:43)
+	at parser.TestFileReaderForOneYear.main(TestFileReaderForOneYear.java:31)
+
+Process finished with exit code 1
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures_invalid03.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54959:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForOneYear
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Temperature during 2016 January is 68 degrees.
+Temperature during 2016 February is 79 degrees.
+Temperature during 2016 March is 76 degrees.
+Temperature during 2016 April is 90 degrees.
+Temperature during 2016 May is 89 degrees.
+Temperature during 2016 June is 95 degrees.
+Temperature during 2016 July is 94 degrees.
+Temperature during 2016 August is 87 degrees.
+Temperature during 2016 September is 98 degrees.
+Temperature during 2016 October is 88 degrees.
+Temperature during 2016 November is 78 degrees.
+Temperature during 2016 December is 67 degrees.
+
+Process finished with exit code 0
+
+
+
+
+//TEST FILE READER FOR MULTIPLE YEARS
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures01.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56185:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForMultipleYears
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Temperature during 2019 January is 68 degrees.
+Temperature during 2019 February is 64 degrees.
+Temperature during 2019 March is 78 degrees.
+Temperature during 2019 April is 89 degrees.
+Temperature during 2019 May is 78 degrees.
+Temperature during 2019 June is 100 degrees.
+Temperature during 2019 July is 92 degrees.
+Temperature during 2019 August is 98 degrees.
+Temperature during 2019 September is 98 degrees.
+Temperature during 2019 October is 90 degrees.
+Temperature during 2019 November is 78 degrees.
+Temperature during 2019 December is 61 degrees.
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures02.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56200:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForMultipleYears
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Temperature during 2016 January is 68 degrees.
+Temperature during 2016 February is 79 degrees.
+Temperature during 2016 March is 76 degrees.
+Temperature during 2016 April is 90 degrees.
+Temperature during 2016 May is 89 degrees.
+Temperature during 2016 June is 95 degrees.
+Temperature during 2016 July is 94 degrees.
+Temperature during 2016 August is 87 degrees.
+Temperature during 2016 September is 98 degrees.
+Temperature during 2016 October is 88 degrees.
+Temperature during 2016 November is 78 degrees.
+Temperature during 2016 December is 67 degrees.
+Temperature during 2017 January is 64 degrees.
+Temperature during 2017 February is 70 degrees.
+Temperature during 2017 March is 81 degrees.
+Temperature during 2017 April is 78 degrees.
+Temperature during 2017 May is 90 degrees.
+Temperature during 2017 June is 102 degrees.
+Temperature during 2017 July is 97 degrees.
+Temperature during 2017 August is 96 degrees.
+Temperature during 2017 September is 107 degrees.
+Temperature during 2017 October is 93 degrees.
+Temperature during 2017 November is 80 degrees.
+Temperature during 2017 December is 70 degrees.
+Temperature during 2018 January is 69 degrees.
+Temperature during 2018 February is 79 degrees.
+Temperature during 2018 March is 82 degrees.
+Temperature during 2018 April is 83 degrees.
+Temperature during 2018 May is 90 degrees.
+Temperature during 2018 June is 97 degrees.
+Temperature during 2018 July is 90 degrees.
+Temperature during 2018 August is 98 degrees.
+Temperature during 2018 September is 94 degrees.
+Temperature during 2018 October is 84 degrees.
+Temperature during 2018 November is 83 degrees.
+Temperature during 2018 December is 65 degrees.
+Temperature during 2019 January is 68 degrees.
+Temperature during 2019 February is 64 degrees.
+Temperature during 2019 March is 78 degrees.
+Temperature during 2019 April is 89 degrees.
+Temperature during 2019 May is 78 degrees.
+Temperature during 2019 June is 100 degrees.
+Temperature during 2019 July is 92 degrees.
+Temperature during 2019 August is 98 degrees.
+Temperature during 2019 September is 98 degrees.
+Temperature during 2019 October is 90 degrees.
+Temperature during 2019 November is 78 degrees.
+Temperature during 2019 December is 61 degrees.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures_invalid01.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56204:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForMultipleYears
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Invalid temperature format
+Exception in thread "main" java.lang.NumberFormatException
+	at parser.TemperaturesCSVReaderForMultipleYears.parseInput(TemperaturesCSVReaderForMultipleYears.java:118)
+	at parser.TemperaturesCSVReaderForMultipleYears.<init>(TemperaturesCSVReaderForMultipleYears.java:48)
+	at parser.TestFileReaderForMultipleYears.main(TestFileReaderForMultipleYears.java:29)
+
+Process finished with exit code 1
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures_invalid02.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56209:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForMultipleYears
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Error months out of bounds
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException
+	at parser.TemperaturesCSVReaderForMultipleYears.parseInput(TemperaturesCSVReaderForMultipleYears.java:166)
+	at parser.TemperaturesCSVReaderForMultipleYears.<init>(TemperaturesCSVReaderForMultipleYears.java:48)
+	at parser.TestFileReaderForMultipleYears.main(TestFileReaderForMultipleYears.java:29)
+
+Process finished with exit code 1
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: temperatures_invalid03.csv
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=56215:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project09/out/production/victorcastorgui-cs1a-project09" parser.TestFileReaderForMultipleYears
+Historic Average High Temperatures in Los Altos, CA
+Source,https://www.wunderground.com/history/monthly/us/ca/los-altos
+Invalid temperature format
+Exception in thread "main" java.lang.NumberFormatException
+	at parser.TemperaturesCSVReaderForMultipleYears.parseInput(TemperaturesCSVReaderForMultipleYears.java:118)
+	at parser.TemperaturesCSVReaderForMultipleYears.<init>(TemperaturesCSVReaderForMultipleYears.java:48)
+	at parser.TestFileReaderForMultipleYears.main(TestFileReaderForMultipleYears.java:29)
+
+Process finished with exit code 1
