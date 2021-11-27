@@ -1,0 +1,401 @@
+// All Correct
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51132:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project03/out/production/victorcastorgui-cs1a-project03" game.GuessOrSink
+Welcome to Guess or Sink!
+
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+To save the ship from sinking, your job is to guess the 2 letter word.
+I'm thinking of my favorite state. What are the initials of the state? _ _
+You have 2 guesses for each Letter.
+Can you guess the first initial? Enter your first guess:
+L
+Correct!
+The first initial is: L_
+Can you guess the second initial? Enter your first guess:
+A
+Correct!
+The second initial is: _A
+You saved the day.
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+The state is: LA
+Game over
+
+
+
+// All Wrong
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51141:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project03/out/production/victorcastorgui-cs1a-project03" game.GuessOrSink
+Welcome to Guess or Sink!
+
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+To save the ship from sinking, your job is to guess the 2 letter word.
+I'm thinking of my favorite state. What are the initials of the state? _ _
+You have 2 guesses for each Letter.
+Can you guess the first initial? Enter your first guess:
+W
+Incorrect guess! Enter your second guess:
+E
+Incorrect guess! Oh no the ship is sinking!
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+Can you guess the second initial? Enter your first guess:
+Q
+Incorrect guess! Enter your second guess:
+R
+Incorrect guess!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+The state is: LA
+Game over
+
+Process finished with exit code 0
+
+
+
+//First Letter is Correct and Second Letter is Wrong
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51179:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project03/out/production/victorcastorgui-cs1a-project03" game.GuessOrSink
+Welcome to Guess or Sink!
+
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+To save the ship from sinking, your job is to guess the 2 letter word.
+I'm thinking of my favorite state. What are the initials of the state? _ _
+You have 2 guesses for each Letter.
+Can you guess the first initial? Enter your first guess:
+L
+Correct!
+The first initial is: L_
+Can you guess the second initial? Enter your first guess:
+E
+Incorrect guess! Enter your second guess:
+Q
+Incorrect guess!
+Oh no! You only save half of the ship
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+The state is: LA
+Game over
+
+Process finished with exit code 0
+
+
+//First Letter is Wrong but Second Letter is Correct
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51190:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project03/out/production/victorcastorgui-cs1a-project03" game.GuessOrSink
+Welcome to Guess or Sink!
+
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+To save the ship from sinking, your job is to guess the 2 letter word.
+I'm thinking of my favorite state. What are the initials of the state? _ _
+You have 2 guesses for each Letter.
+Can you guess the first initial? Enter your first guess:
+E
+Incorrect guess! Enter your second guess:
+R
+Incorrect guess! Oh no the ship is sinking!
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+Can you guess the second initial? Enter your first guess:
+A
+Correct!
+The second initial is: _A
+You saved the day but only half ship is saved.
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+The state is: LA
+Game over
+
+
+
+//Mix of Correct and Incorrect
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51205:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project03/out/production/victorcastorgui-cs1a-project03" game.GuessOrSink
+Welcome to Guess or Sink!
+
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+To save the ship from sinking, your job is to guess the 2 letter word.
+I'm thinking of my favorite state. What are the initials of the state? _ _
+You have 2 guesses for each Letter.
+Can you guess the first initial? Enter your first guess:
+L
+Correct!
+The first initial is: L_
+Can you guess the second initial? Enter your first guess:
+E
+Incorrect guess! Enter your second guess:
+A
+Correct!
+The second initial is: _A
+You saved the day
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+The state is: LA
+Game over
+
+Process finished with exit code 0
+
+
+
+//Trying with Lower Case Letter
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52047:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project03/out/production/victorcastorgui-cs1a-project03" game.GuessOrSink
+Welcome to Guess or Sink!
+
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+To save the ship from sinking, your job is to guess the 2 letter word.
+I'm thinking of my favorite state. What are the initials of the state? _ _
+You have 2 guesses for each Letter.
+Can you guess the first initial? Enter your first guess:
+l
+Correct!
+The first initial is: L_
+Can you guess the second initial? Enter your first guess:
+a
+Correct!
+The second initial is: _A
+You saved the day.
+                               <|
+                    __'__     __'__      __'__
+                   /    /    /    /     /    /
+                  /\____\    \____\     \____\
+                 / ___!___   ___!___    ___!___
+               // (      (  (      (   (      (
+             / /   \______\  \______\   \______\
+           /  /   ____!_____ ___!______ ____!_____
+         /   /   /         //         //         /
+      /    /   |         ||         ||         |
+     /_____/     \         \\         \\         \
+           \      \_________\\_________\\_________\
+            \         |          |         |
+             \________!__________!_________!________/
+              \|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_/|
+               \    _______________                /
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+^!!^^"!%%!^^^!^^^!!^^^%%%%%!!!!^^^%%^^^!!%%%%^^^!!!!!!%%%^^^^%^^%%%^^^!
+^^^%%%^%^^^%^%%^\_"/_)/_)_/_)__)/_)/)/)_)_"_'_"_//)/)/)/)%%%^^^%^^%%%%^
+
+The state is: LA
+Game over
