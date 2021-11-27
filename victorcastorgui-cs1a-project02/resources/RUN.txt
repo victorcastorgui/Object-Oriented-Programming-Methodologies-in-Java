@@ -1,0 +1,22 @@
+"/Applications/IntelliJ IDEA CE.app/Contents/jbr/Contents/Home/bin/java" "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51367:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project02/out/production/victorcastorgui-cs1a-project02" lunardrift.CalculateLunarDrift
+Hello. Welcome to Lunar Drift Calculator!
+
+Distance of Earth to moon in year 1900 is 3.68042E8 meters
+Test case 1:
+Distance of Earth to moon in year 1502 was 3.68041984876E8 meters
+History: In 1502 Portuguese navigators discover Rio de Janeiro.
+Difference between moon in year 1502 and year 1900 is 15.124000012874603 meters
+
+Test case 2:
+Distance of Earth to moon in year 1969 was 3.68042002622E8 meters
+History: In 1969 Neil Armstrong and Edwin Aldrin became the first humans ever to land on moon.
+Difference between moon in year 1969 and year 1900 is -2.621999979019165 meters
+
+Test case 3:
+Distance of Earth to moon in year 2001 was 3.68042003838E8 meters
+History: In 2001 two solar and three lunar eclipses occur.
+Difference between moon in year 2001 and year 1900 is -3.837999999523163 meters
+
+Done with Luna Drift!
+
+Process finished with exit code 0
