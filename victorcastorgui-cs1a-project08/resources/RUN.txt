@@ -1,0 +1,614 @@
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing when user makes All Correct Guesses
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65219:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project08/out/production/victorcastorgui-cs1a-project08" game.Game
+Welcome to CS1A console game!
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+1
+Let's play Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 8 letter word: _ _ _ _ _ _ _ _
+
+Enter your guess #1
+e
+Correct!
+e _ e _ _ _ _ _
+
+Enter your guess #2
+l
+Correct!
+e l e _ _ _ _ _
+
+Enter your guess #3
+p
+Correct!
+e l e p _ _ _ _
+
+Enter your guess #4
+h
+Correct!
+e l e p h _ _ _
+
+Enter your guess #5
+a
+Correct!
+e l e p h a _ _
+
+Enter your guess #6
+n
+Correct!
+e l e p h a n _
+
+Enter your guess #7
+t
+Correct!
+e l e p h a n t
+
+You saved the day! The word is: elephant
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+Game Over
+Your current score is 1
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+q
+Your score is 1 out of 1
+Goodbye.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing when user makes All Wrong Guesses
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65241:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project08/out/production/victorcastorgui-cs1a-project08" game.Game
+Welcome to CS1A console game!
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+1
+Let's play Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 10 letter word: _ _ _ _ _   _ _ _ _ _
+
+Enter your guess #1
+q
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #2
+t
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #3
+y
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #4
+u
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #5
+i
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #6
+p
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #7
+a
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #8
+s
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #9
+f
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #10
+g
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #11
+j
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Enter your guess #12
+k
+Incorrect guess!
+                 |         |         |
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+_ _ _ _ _   _ _ _ _ _
+
+Game Over
+Your current score is 0
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+q
+Your score is 0 out of 1
+Goodbye.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing when user makes Mix Guesses
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65252:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project08/out/production/victorcastorgui-cs1a-project08" game.Game
+Welcome to CS1A console game!
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+1
+Let's play Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 8 letter word: _ _ _ _ _ _ _ _
+
+Enter your guess #1
+e
+Correct!
+e _ e _ _ _ _ _
+
+Enter your guess #2
+t
+Correct!
+e _ e _ _ _ _ t
+
+Enter your guess #3
+q
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+e _ e _ _ _ _ t
+
+Enter your guess #4
+l
+Correct!
+e l e _ _ _ _ t
+
+Enter your guess #5
+f
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+e l e _ _ _ _ t
+
+Enter your guess #6
+p
+Correct!
+e l e p _ _ _ t
+
+Enter your guess #7
+g
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+e l e p _ _ _ t
+
+Enter your guess #8
+h
+Correct!
+e l e p h _ _ t
+
+Enter your guess #9
+u
+Incorrect guess!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+e l e p h _ _ t
+
+Game Over
+Your current score is 0
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+q
+Your score is 0 out of 1
+Goodbye.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing one space Extra Credit Run
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65266:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project08/out/production/victorcastorgui-cs1a-project08" game.Game
+Welcome to CS1A console game!
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+1
+Let's play Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 10 letter word: _ _ _ _ _   _ _ _ _ _
+
+Enter your guess #1
+h
+Correct!
+h _ _ _ _   _ _ _ _ _
+
+Enter your guess #2
+e
+Correct!
+h e _ _ _   _ _ _ _ _
+
+Enter your guess #3
+l
+Correct!
+h e l l _   _ _ _ l _
+
+Enter your guess #4
+o
+Correct!
+h e l l o   _ o _ l _
+
+Enter your guess #5
+w
+Correct!
+h e l l o   w o _ l _
+
+Enter your guess #6
+r
+Correct!
+h e l l o   w o r l _
+
+Enter your guess #7
+d
+Correct!
+h e l l o   w o r l d
+
+You saved the day! The word is: hello world
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+Game Over
+Your current score is 1
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+q
+Your score is 1 out of 1
+Goodbye.
+
+Process finished with exit code 0
+
+-----------------------------------------------------
+-----------------------------------------------------
+NOTES: Testing two space Extra Credit Run
+-----------------------------------------------------
+/Library/Java/JavaVirtualMachines/jdk-13.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65294:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/victorcastor/Desktop/Foothill College/CS/1A/victorcastorgui-cs1a-project08/out/production/victorcastorgui-cs1a-project08" game.Game
+Welcome to CS1A console game!
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+1
+Let's play Guess or Sink!
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+To save the ship from sinking, your job is to guess the 10 letter word: _   _ _ _ _   _ _ _ _ _
+
+Enter your guess #1
+i
+Correct!
+i   _ _ _ _   _ _ _ _ _
+
+Enter your guess #2
+n
+Correct!
+i   n _ _ _   _ _ _ _ _
+
+Enter your guess #3
+e
+Correct!
+i   n e e _   _ _ e e _
+
+Enter your guess #4
+d
+Correct!
+i   n e e d   _ _ e e _
+
+Enter your guess #5
+s
+Correct!
+i   n e e d   s _ e e _
+
+Enter your guess #6
+l
+Correct!
+i   n e e d   s l e e _
+
+Enter your guess #7
+p
+Correct!
+i   n e e d   s l e e p
+
+You saved the day! The word is: i need sleep
+                 |         |         |
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+              )____)    )____)    )____)
+		 ________|_________|_________|_________
+         \|_|VC|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|/
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^VC%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+^%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%%^%%^%^^^%^%^
+
+Game Over
+Your current score is 1
+What would you like to do?
+     1. Play Guess or Sink
+	 q. Quit
+Enter your selection:
+q
+Your score is 1 out of 1
+Goodbye.
+
+Process finished with exit code 0
